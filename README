@@ -5,4 +5,4 @@ This program reads from a predefined text file testAddBooks.txt containing the c
 
 This program also reads from a predefined text file userlist.txt containing the list of users, who must be defined by name and (fake) library number.
 
-Finally, this program reads from a predefined text file reservations.txt containing the history of all reservations that have been made. The program uses this information at initialization to update its catalogue with the correct number of UNRESERVED (and hence available) books of each type. No means of returning a book has been implemented yet -- for now, reservations.txt can be deleted to reset the catalogue.
+Finally, this program reads from a predefined text file reservations.txt (containing user library number / book isbn number of each reservation made) containing the history of all reservations that have been made. The program uses this information at initialization to update its catalogue with the correct number of UNRESERVED (and hence available) books of each type. No means of returning a book has been implemented yet -- for now, reservations.txt can be deleted to reset the catalogue.
