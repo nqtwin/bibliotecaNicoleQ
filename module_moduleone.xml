@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_moduleone" default="compile.module.moduleone">
+  <dirname property="module.moduleone.basedir" file="${ant.file.module_moduleone}"/>
+  
+  <property name="module.jdk.home.moduleone" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.moduleone" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.moduleone" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.moduleone" value="${compiler.args}"/>
+  
+  <property name="moduleone.output.dir" value="${module.moduleone.basedir}/out/production/moduleOne"/>
+  <property name="moduleone.testoutput.dir" value="${module.moduleone.basedir}/out/test/moduleOne"/>
+  
+  <path id="moduleone.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="moduleone.module.production.classpath">
+    <path refid="${module.jdk.classpath.moduleone}"/>
+    <pathelement location="${idea.home}/lib/junit.jar"/>
+  </path>
+  
+  <path id="moduleone.runtime.production.module.classpath">
+    <pathelement location="${moduleone.output.dir}"/>
+    <pathelement location="${idea.home}/lib/junit.jar"/>
+  </path>
+  
+  <path id="moduleone.module.classpath">
+    <path refid="${module.jdk.classpath.moduleone}"/>
+    <pathelement location="${moduleone.output.dir}"/>
+    <pathelement location="${idea.home}/lib/junit.jar"/>
+  </path>
+  
+  <path id="moduleone.runtime.module.classpath">
+    <pathelement location="${moduleone.testoutput.dir}"/>
+    <pathelement location="${moduleone.output.dir}"/>
+    <pathelement location="${idea.home}/lib/junit.jar"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.moduleone">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.moduleone">
+    <patternset refid="excluded.from.module.moduleone"/>
+  </patternset>
+  
+  <path id="moduleone.module.sourcepath">
+    <dirset dir="${module.moduleone.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  <path id="moduleone.module.test.sourcepath">
+    <dirset dir="${module.moduleone.basedir}">
+      <include name="tests"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.moduleone" depends="compile.module.moduleone.production,compile.module.moduleone.tests" description="Compile module moduleOne"/>
+  
+  <target name="compile.module.moduleone.production" depends="register.custom.compilers" description="Compile module moduleOne; production classes">
+    <mkdir dir="${moduleone.output.dir}"/>
+    <javac2 destdir="${moduleone.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.moduleone}/javac">
+      <compilerarg line="${compiler.args.moduleone}"/>
+      <bootclasspath refid="moduleone.module.bootclasspath"/>
+      <classpath refid="moduleone.module.production.classpath"/>
+      <src refid="moduleone.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.moduleone"/>
+    </javac2>
+    
+    <copy todir="${moduleone.output.dir}">
+      <fileset dir="${module.moduleone.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.moduleone.tests" depends="register.custom.compilers,compile.module.moduleone.production" description="compile module moduleOne; test classes" unless="skip.tests">
+    <mkdir dir="${moduleone.testoutput.dir}"/>
+    <javac2 destdir="${moduleone.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.moduleone}/javac">
+      <compilerarg line="${compiler.args.moduleone}"/>
+      <bootclasspath refid="moduleone.module.bootclasspath"/>
+      <classpath refid="moduleone.module.classpath"/>
+      <src refid="moduleone.module.test.sourcepath"/>
+      <patternset refid="excluded.from.compilation.moduleone"/>
+    </javac2>
+    
+    <copy todir="${moduleone.testoutput.dir}">
+      <fileset dir="${module.moduleone.basedir}/tests">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="clean.module.moduleone" description="cleanup module">
+    <delete dir="${moduleone.output.dir}"/>
+    <delete dir="${moduleone.testoutput.dir}"/>
+  </target>
+</project>
