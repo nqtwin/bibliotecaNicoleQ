@@ -1,8 +1,0 @@
-Little Women / Louisa May Alcott / 1234 / 2
-Sherlock Holmes / Sir Arthur Conan Doyle / 5678 / 3
-Robinson Crusoe / Robert Louis Stevenson / 2345 / 1
-Candide / Voltaire / 2314 / 2
-The Adventures of Sherlock Holmes / Arthur Conan Doyle / 5678 / 2
-Sherlock Holmes: The Hound of the Baskervilles / Sir Arthur Conan Doyle / 5679 / 1
-Lolita / Vladimir Nabokov / 3425 / 1
-Last of the Mohicans (The) / James Fenimore Cooper / 4267 / 2
