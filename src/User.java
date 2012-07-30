@@ -30,6 +30,10 @@ public class User {
         return name;
     }
 
+    public ArrayList<Reservation> getReservationList() {
+        return resList;
+    }
+
     public boolean equals(Object userObject) {
         User inUser = (User) userObject;
         if (inUser.getLibNum().equals(libNum))
@@ -42,9 +46,11 @@ public class User {
         return userInfoHeader;
     }
 
-    public void displayUserInfo() {
-        System.out.println(getUserInfoHeader());
-        System.out.println(toString());
+    public ArrayList<String> getUserInfo() {
+        ArrayList<String> userInfo = new ArrayList<String>();
+        userInfo.add(getUserInfoHeader());
+        userInfo.add(toString());
+        return userInfo;
     }
 
     public String toString() {
@@ -86,33 +92,29 @@ public class User {
 
         public Reservation(Book inBook) {
             resBook = inBook;
-            dueDate = "01 Jan 2001";
+            dueDate = "01 JAN 2001";
             fileToAppendTo = "reservations.txt";
         }
 
         public Reservation(Book inBook, String inFilename) {
             resBook = inBook;
-            dueDate = "01 Jan 2001";
+            dueDate = "01 JAN 2001";
             fileToAppendTo = inFilename;
-        }
-
-        public Book getResBook() {
-            return resBook;
         }
 
         public String toString() {
             String strInfo = "";
             strInfo = resBook.getTitle() + " / " + resBook.getAuthor() + " / "
-                    + resBook.getIsbn() + " / " + dueDate;
+                    + resBook.getIdNum() + " / " + dueDate;
             return strInfo;
         }
 
-        public String getTransactionInfo() {
-            String output = getLibNum() + " / " + resBook.getIsbn() + " / " + dueDate;
+        private String getTransactionInfo() {
+            String output = getLibNum() + " / " + resBook.getIdNum() + " / " + dueDate;
             return output;
         }
 
-        public void appendTransactionToFile() {
+        private void appendTransactionToFile() {
             try {
                 FileWriter filewriter = new FileWriter(fileToAppendTo,true);
                 PrintWriter writer = new PrintWriter(new BufferedWriter(filewriter));

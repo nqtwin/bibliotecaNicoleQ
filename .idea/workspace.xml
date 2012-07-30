@@ -2,16 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4402304-90eb-4c0f-8cd9-e2380b326623" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/junit-4.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mockito_all_1_9_5_rc1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CatalogueRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CheckIfBookIsReservableMenuTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CheckLibNumMenuTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ConductReservationMenuTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ExitProgramMenuTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FinishReservationMenuTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Media.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Movie.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MovieCatalogue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ReserveBookMenuTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ReserveByIdNumMenuTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RootMenuTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SearchAuthorByLetterMenuTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SearchAuthorMenuTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SearchCatalogueMenuTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SearchTitleByLetterMenuTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SearchTitleMenuTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SearchXMenuTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserOutput.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ViewBookCatalogueByAuthorMenuTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ViewBookCatalogueByTitleMenuTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ViewBookCatalogueMenuTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ViewMovieCatalogueByDirectorMenuTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ViewMovieCatalogueByTitleMenuTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ViewMovieCatalogueMenuTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/moviesInCatalogue.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/BookCatalogueTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/CatalogueRendererTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/MovieCatalogueTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/MovieTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Biblioteca$CheckIfBookIsReservableMenuTreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Biblioteca$CheckLibNumTreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Biblioteca$ConductReservationMenuTreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Biblioteca$ExitProgramMenuTreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Biblioteca$FinishReservationMenuTreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Biblioteca$ReserveBookMenuTreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Biblioteca$ReserveByIsbnMenuTreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Biblioteca$RootMenuTreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Biblioteca$SearchAuthorByLetterMenuTreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Biblioteca$SearchAuthorMenuTreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Biblioteca$SearchCatalogueMenuTreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Biblioteca$SearchTitleByLetterMenuTreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Biblioteca$SearchTitleMenuTreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Biblioteca$SearchXMenuTreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Biblioteca$ViewCatalogueByAuthorMenuTreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Biblioteca$ViewCatalogueByTitleMenuTreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Biblioteca$ViewCatalogueMenuTreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Catalogue$AuthorCompare.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Catalogue$InsufficientBooksException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Catalogue$TitleCompare.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/test/moduleOne/CatalogueTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/CatalogueTest.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Catalogue.java" afterPath="$PROJECT_DIR$/src/BookCatalogue.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataFiles/reservations.txt" afterPath="$PROJECT_DIR$/dataFiles/reservations.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moduleOne.iml" afterPath="$PROJECT_DIR$/moduleOne.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/BibliotecaTest.java" afterPath="$PROJECT_DIR$/tests/BibliotecaTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Biblioteca.java" afterPath="$PROJECT_DIR$/src/Biblioteca.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Book.java" afterPath="$PROJECT_DIR$/src/Book.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Catalogue.java" afterPath="$PROJECT_DIR$/src/Catalogue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MenuTreeNode.java" afterPath="$PROJECT_DIR$/src/MenuTreeNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/User.java" afterPath="$PROJECT_DIR$/src/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UserList.java" afterPath="$PROJECT_DIR$/src/UserList.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/BookTest.java" afterPath="$PROJECT_DIR$/tests/BookTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/CatalogueTest.java" afterPath="$PROJECT_DIR$/tests/CatalogueTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/MenuTreeNodeTest.java" afterPath="$PROJECT_DIR$/tests/MenuTreeNodeTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/UserInputTest.java" afterPath="$PROJECT_DIR$/tests/UserInputTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/UserListTest.java" afterPath="$PROJECT_DIR$/tests/UserListTest.java" />
@@ -90,55 +144,94 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Book.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Book.java">
+      <file leaf-file-name="BookCatalogue.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BookCatalogue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="0" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.0">
+            <state line="4" column="33" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2213#2220#0" expanded="true" />
+                <element signature="e#2763#2770#0" expanded="true" />
+                <element signature="e#3401#3408#0" expanded="true" />
+                <element signature="e#4263#4270#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CatalogueRenderer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CatalogueRenderer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="28" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1105#1113#0" expanded="true" />
+                <element signature="e#1456#1464#0" expanded="true" />
+                <element signature="e#1893#1901#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovieCatalogue.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MovieCatalogue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="177" column="71" selection-start="6225" selection-end="6225" vertical-scroll-proportion="0.5816327">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2332#2339#0" expanded="true" />
+                <element signature="e#2898#2905#0" expanded="true" />
+                <element signature="e#3554#3561#0" expanded="true" />
+                <element signature="e#4428#4435#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookCatalogueTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/BookCatalogueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="30" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1311#1317#0" expanded="true" />
+                <element signature="e#1843#1849#0" expanded="true" />
+                <element signature="e#2340#2346#0" expanded="true" />
+                <element signature="e#2840#2846#0" expanded="true" />
+                <element signature="e#3725#3731#0" expanded="true" />
+                <element signature="e#4227#4233#0" expanded="true" />
+                <element signature="e#4694#4700#0" expanded="true" />
+                <element signature="e#5208#5214#0" expanded="true" />
+                <element signature="e#5681#5687#0" expanded="true" />
+                <element signature="e#6193#6199#0" expanded="true" />
+                <element signature="e#6669#6675#0" expanded="true" />
+                <element signature="e#7189#7195#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RootMenuTreeNode.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RootMenuTreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="41" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuTreeNode.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MenuTreeNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="33" selection-start="2341" selection-end="2341" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserInput.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UserInput.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="19" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Biblioteca.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Biblioteca.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Biblioteca.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="73" selection-start="208" selection-end="208" vertical-scroll-proportion="0.34615386">
+            <state line="74" column="0" selection-start="2101" selection-end="2101" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Catalogue.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Catalogue.java">
+      <file leaf-file-name="ViewBookCatalogueByTitleMenuTreeNode.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ViewBookCatalogueByTitleMenuTreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="209" column="40" selection-start="7276" selection-end="7276" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="3" selection-start="3181" selection-end="3181" vertical-scroll-proportion="0.0">
+            <state line="7" column="0" selection-start="160" selection-end="810" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -165,22 +258,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/UserList.java" />
-        <option value="$PROJECT_DIR$/src/reservations.txt" />
+        <option value="$PROJECT_DIR$/src/BookCatalogue.java" />
+        <option value="$PROJECT_DIR$/src/SearchTitleMenuTreeNode.java" />
+        <option value="$PROJECT_DIR$/src/SearchAuthorMenuTreeNode.java" />
+        <option value="$PROJECT_DIR$/src/SearchAuthorByLetterMenuTreeNode.java" />
+        <option value="$PROJECT_DIR$/src/SearchTitleByLetterMenuTreeNode.java" />
+        <option value="$PROJECT_DIR$/tests/CatalogueRendererTest.java" />
+        <option value="$PROJECT_DIR$/tests/BookCatalogueTest.java" />
+        <option value="$PROJECT_DIR$/src/RootMenuTreeNode.java" />
+        <option value="$PROJECT_DIR$/src/ViewMovieCatalogueByTitleMenuTreeNode.java" />
         <option value="$PROJECT_DIR$/src/Biblioteca.java" />
-        <option value="$PROJECT_DIR$/src/testAddBooks.txt" />
-        <option value="$PROJECT_DIR$/src/MenuTreeNodeTest.java" />
-        <option value="$PROJECT_DIR$/src/Catalogue.java" />
-        <option value="$PROJECT_DIR$/src/UserInputTest.java" />
-        <option value="$PROJECT_DIR$/src/BibliotecaTest.java" />
-        <option value="$PROJECT_DIR$/dataFiles/reservations.txt" />
-        <option value="$PROJECT_DIR$/tests/UserTest.java" />
-        <option value="$PROJECT_DIR$/tests/UserListTest.java" />
-        <option value="$PROJECT_DIR$/tests/UserInputTest.java" />
-        <option value="$PROJECT_DIR$/tests/MenuTreeNodeTest.java" />
-        <option value="$PROJECT_DIR$/tests/BookTest.java" />
-        <option value="$PROJECT_DIR$/tests/BibliotecaTest.java" />
-        <option value="$PROJECT_DIR$/tests/CatalogueTest.java" />
+        <option value="$PROJECT_DIR$/src/moviesInCatalogue.txt" />
+        <option value="$PROJECT_DIR$/src/ViewMovieCatalogueByDirectorMenuTreeNode.java" />
+        <option value="$PROJECT_DIR$/src/ViewMovieCatalogueMenuTreeNode.java" />
+        <option value="$PROJECT_DIR$/tests/MovieTest.java" />
+        <option value="$PROJECT_DIR$/src/MovieCatalogue.java" />
+        <option value="$PROJECT_DIR$/tests/MovieCatalogueTest.java" />
       </list>
     </option>
   </component>
@@ -188,8 +281,7 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
-    <option name="y" value="25" />
+    <option name="y" value="27" />
     <option name="width" value="1440" />
     <option name="height" value="787" />
   </component>
@@ -219,6 +311,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -229,16 +331,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="moduleOne" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -303,6 +395,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bibliotecaNicoleQuah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bibliotecaNicoleQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="dataFiles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -313,8 +423,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
@@ -324,6 +434,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="bibliotecanicolequah" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -335,8 +446,8 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -351,34 +462,18 @@
       <recent name="$PROJECT_DIR$/tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Biblioteca">
-    <configuration default="false" name="HelloWorld" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="test1" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BibliotecaTest.testStart" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="test1" />
+  <component name="RunManager" selected="JUnit.MovieCatalogueTest.sortCatalogueByRatingGivesCorrectOrder">
+    <configuration default="false" name="BookCatalogueTest.searchAuthorByLetterReturnsNullIfUnsuccessful" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="moduleOne" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BibliotecaTest" />
-      <option name="METHOD_NAME" value="testStart" />
+      <option name="MAIN_CLASS_NAME" value="BookCatalogueTest" />
+      <option name="METHOD_NAME" value="searchAuthorByLetterReturnsNullIfUnsuccessful" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/src" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -386,13 +481,95 @@
       </option>
       <envs />
       <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BookCatalogueTest.addBooksGivesCorrectBooksWhenGetBooksIsCalled" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="moduleOne" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BookCatalogueTest" />
+      <option name="METHOD_NAME" value="addBooksGivesCorrectBooksWhenGetBooksIsCalled" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MovieTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="moduleOne" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MovieTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MovieCatalogueTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="moduleOne" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MovieCatalogueTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MovieCatalogueTest.sortCatalogueByRatingGivesCorrectOrder" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="moduleOne" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MovieCatalogueTest" />
+      <option name="METHOD_NAME" value="sortCatalogueByRatingGivesCorrectOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -531,7 +708,7 @@
       <option name="MAIN_CLASS_NAME" value="Biblioteca" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/dataFiles" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/src" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -593,12 +770,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="CatalogueTest" type="JUnit" factoryName="JUnit">
+    <configuration default="false" name="BookCatalogueTest" type="JUnit" factoryName="JUnit">
       <module name="moduleOne" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CatalogueTest" />
+      <option name="MAIN_CLASS_NAME" value="BookCatalogueTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -611,7 +788,13 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -703,17 +886,43 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="10">
-      <item index="0" class="java.lang.String" itemvalue="Application.HelloWorld" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Biblioteca" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BibliotecaTest.testStart" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BookTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UserTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.CatalogueTest" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.BibliotecaTest" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.UserListTest" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.MenuTreeNodeTest" />
-      <item index="9" class="java.lang.String" itemvalue="JUnit.UserInputTest" />
+    <configuration default="false" name="CatalogueRendererTest" type="JUnit" factoryName="JUnit">
+      <module name="moduleOne" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CatalogueRendererTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="14">
+      <item index="0" class="java.lang.String" itemvalue="Application.Biblioteca" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BookTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UserTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BookCatalogueTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BibliotecaTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.UserListTest" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.MenuTreeNodeTest" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.UserInputTest" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.CatalogueRendererTest" />
+      <item index="9" class="java.lang.String" itemvalue="JUnit.BookCatalogueTest.searchAuthorByLetterReturnsNullIfUnsuccessful" />
+      <item index="10" class="java.lang.String" itemvalue="JUnit.BookCatalogueTest.addBooksGivesCorrectBooksWhenGetBooksIsCalled" />
+      <item index="11" class="java.lang.String" itemvalue="JUnit.MovieTest" />
+      <item index="12" class="java.lang.String" itemvalue="JUnit.MovieCatalogueTest" />
+      <item index="13" class="java.lang.String" itemvalue="JUnit.MovieCatalogueTest.sortCatalogueByRatingGivesCorrectOrder" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -768,27 +977,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="25" width="1440" height="787" extended-state="0" />
+    <frame x="0" y="27" width="1440" height="787" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19468391" sideWeight="0.6456456" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19468391" sideWeight="0.7762763" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43693694" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4903846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4894895" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25480768" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35585585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2033046" sideWeight="0.6456456" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35435435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2025862" sideWeight="0.8093093" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1906907" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12660256" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -852,107 +1061,145 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dataFiles/reservations.txt">
+    <entry file="file://$PROJECT_DIR$/src/testAddBooks.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataFiles/testAddBooks.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataFiles/userlist.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="42" selection-start="133" selection-end="133" vertical-scroll-proportion="0.12155592" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="0" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuTreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="33" selection-start="2341" selection-end="2341" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="19" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Catalogue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="209" column="40" selection-start="7276" selection-end="7276" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="3" selection-start="3181" selection-end="3181" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/UserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="19" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/UserListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="22" selection-start="566" selection-end="566" vertical-scroll-proportion="0.5591572">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/UserInputTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="9" selection-start="883" selection-end="883" vertical-scroll-proportion="0.92382497">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/MenuTreeNodeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/moviesInCatalogue.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="9" selection-start="3452" selection-end="3452" vertical-scroll-proportion="0.95033115">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/BookTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="9" selection-start="1855" selection-end="1855" vertical-scroll-proportion="0.95137763">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/BibliotecaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="9" selection-start="324" selection-end="324" vertical-scroll-proportion="0.35818475">
+        <state line="2" column="56" selection-start="158" selection-end="158" vertical-scroll-proportion="0.055555556">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/CatalogueTest.java">
+    <entry file="file://$PROJECT_DIR$/src/ViewMovieCatalogueByTitleMenuTreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="15" selection-start="158" selection-end="158" vertical-scroll-proportion="0.27559054">
+        <state line="13" column="52" selection-start="449" selection-end="449" vertical-scroll-proportion="0.3764479">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ViewBookCatalogueByAuthorMenuTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="161" selection-end="814" vertical-scroll-proportion="0.23166023">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Biblioteca.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="73" selection-start="208" selection-end="208" vertical-scroll-proportion="0.34615386">
+        <state line="74" column="0" selection-start="2101" selection-end="2101" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ViewMovieCatalogueByDirectorMenuTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="34" selection-start="641" selection-end="641" vertical-scroll-proportion="0.5576208">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ViewMovieCatalogueMenuTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="83" selection-start="667" selection-end="667" vertical-scroll-proportion="0.46391752">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ViewBookCatalogueMenuTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="117" selection-start="371" selection-end="371" vertical-scroll-proportion="0.33505154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="60" selection-start="305" selection-end="305" vertical-scroll-proportion="-0.60036165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="1" selection-start="289" selection-end="714" vertical-scroll-proportion="0.3254973">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/MovieTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="33" selection-start="430" selection-end="430" vertical-scroll-proportion="0.5153707">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RootMenuTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="41" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CatalogueRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="28" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1105#1113#0" expanded="true" />
+            <element signature="e#1456#1464#0" expanded="true" />
+            <element signature="e#1893#1901#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/BookCatalogueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="30" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1311#1317#0" expanded="true" />
+            <element signature="e#1843#1849#0" expanded="true" />
+            <element signature="e#2340#2346#0" expanded="true" />
+            <element signature="e#2840#2846#0" expanded="true" />
+            <element signature="e#3725#3731#0" expanded="true" />
+            <element signature="e#4227#4233#0" expanded="true" />
+            <element signature="e#4694#4700#0" expanded="true" />
+            <element signature="e#5208#5214#0" expanded="true" />
+            <element signature="e#5681#5687#0" expanded="true" />
+            <element signature="e#6193#6199#0" expanded="true" />
+            <element signature="e#6669#6675#0" expanded="true" />
+            <element signature="e#7189#7195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/MovieCatalogueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="86" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.5714286">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1241#1248#0" expanded="true" />
+            <element signature="e#1812#1819#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MovieCatalogue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="177" column="71" selection-start="6225" selection-end="6225" vertical-scroll-proportion="0.5816327">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2332#2339#0" expanded="true" />
+            <element signature="e#2898#2905#0" expanded="true" />
+            <element signature="e#3554#3561#0" expanded="true" />
+            <element signature="e#4428#4435#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1013,7 +1260,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

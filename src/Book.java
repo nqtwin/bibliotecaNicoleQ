@@ -5,37 +5,37 @@
  * Time: 3:30 PM
  * To change this template use File | Settings | File Templates.
  */
-public class Book {
+public class Book implements Media {
 
     private String title;
     private String author;
-    private String isbn;
+    private String idNum;
     private int quantity;
     private int quantFree;
 
-    public Book(String inTitle, String inAuthor, String inIsbn, int inQuantity) {
+    public Book(String inTitle, String inAuthor, String inIdNum, int inQuantity) {
         title = inTitle.toUpperCase();
         author = inAuthor.toUpperCase();
-        isbn = inIsbn.toUpperCase();
+        idNum = inIdNum.toUpperCase();
         quantity = inQuantity;
         quantFree = quantity;
     }
 
-    public Book(String inTitle, String inAuthor, String inIsbn) {
+    public Book(String inTitle, String inAuthor, String inIdNum) {
         title = inTitle.toUpperCase();
         author = inAuthor.toUpperCase();
-        isbn = inIsbn.toUpperCase();
+        idNum = inIdNum.toUpperCase();
         quantity = 1;
         quantFree = quantity;
     }
 
     public String toString() {
-        return title + " / " + author + " / " + isbn;
+        return title + " / " + author + " / " + idNum;
     }
 
     public boolean equals(Object bookObj) {
         Book bookTwo = (Book) bookObj;
-        return (this.getIsbn().equals(bookTwo.getIsbn()));
+        return (this.getIdNum().equals(bookTwo.getIdNum()));
     }
 
     public void addQuantity(int addQuant) {
@@ -50,8 +50,8 @@ public class Book {
         return author;
     }
 
-    public String getIsbn() {
-        return isbn;
+    public String getIdNum() {
+        return idNum;
     }
 
     public int getQuantity() {

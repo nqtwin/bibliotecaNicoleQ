@@ -14,6 +14,10 @@ import java.util.ArrayList;
 public class UserList {
     private ArrayList<User> userList;
 
+    public UserList() {
+        userList = new ArrayList<User>();
+    }
+
     public UserList(String inputFilename) {
         userList = new ArrayList<User>();
         try {
@@ -27,7 +31,7 @@ public class UserList {
         }
     }
 
-    private void generateUserList(BufferedReader reader) throws IOException {
+    public void generateUserList(BufferedReader reader) throws IOException {
         String line = null;
         while ((line = reader.readLine()) != null) {
             String[] tokens = line.split("/");
@@ -36,9 +40,8 @@ public class UserList {
         }
     }
 
-    public void displayUserList() {
-        for (User iUser : userList)
-            System.out.println(iUser);
+    public ArrayList<User> getUserList() {
+        return userList;
     }
 
     public User checkForUser(User inUser) {
