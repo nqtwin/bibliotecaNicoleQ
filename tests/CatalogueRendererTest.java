@@ -1,3 +1,6 @@
+import biblioteca.libFunctions.Book;
+import biblioteca.libFunctions.CatalogueRenderer;
+import biblioteca.libFunctions.Media;
 import org.junit.Before;
 import org.junit.Test;
 

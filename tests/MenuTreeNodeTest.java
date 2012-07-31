@@ -1,3 +1,5 @@
+import biblioteca.frontend.UserInput;
+import biblioteca.menu.MenuTreeNode;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -8,7 +10,7 @@ import static org.mockito.Mockito.*;
 
 /**
  * Created with IntelliJ IDEA.
- * User: nquah
+ * biblioteca.libFunctions.User: nquah
  * Date: 7/18/12
  * Time: 3:35 PM
  * To change this template use File | Settings | File Templates.
@@ -60,7 +62,7 @@ public class MenuTreeNodeTest {
         childTwo.setMenuOption("TEST TWO");
         node.addChildNode(childTwo);
         ArrayList<String> result = new ArrayList<String>();
-        result.add("Please select one of the following menu options:");
+        result.add("Please select one of the following biblioteca.menu options:");
         result.add("1: TEST ONE");
         result.add("2: TEST TWO");
         assertEquals(result,node.getFullMenuOptions());

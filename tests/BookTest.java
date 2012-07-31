@@ -1,3 +1,4 @@
+import biblioteca.libFunctions.Book;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -5,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 
 /**
  * Created with IntelliJ IDEA.
- * User: nquah
+ * biblioteca.libFunctions.User: nquah
  * Date: 7/15/12
  * Time: 7:05 PM
  * To change this template use File | Settings | File Templates.

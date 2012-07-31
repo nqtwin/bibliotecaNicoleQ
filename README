@@ -1,9 +1,9 @@
-Main program to run is in Biblioteca.main()
+Main program to run is in biblioteca.libFunctions.Biblioteca.main()
 
 *** UPDATE ***
 Required .txt files (originally in ./dataFiles) have been copied to 
 ./out/production/moduleOne so that running: 
-java Biblioteca
+java biblioteca.libFunctions.Biblioteca
 from that directory should work.
  
 Need to learn how to make it work if the .txt files are kept in a different

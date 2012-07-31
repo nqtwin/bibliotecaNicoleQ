@@ -1,3 +1,5 @@
+import biblioteca.backend.MovieCatalogue;
+import biblioteca.libFunctions.Movie;
 import org.junit.Test;
 
 import java.io.BufferedReader;
@@ -10,7 +12,7 @@ import static org.mockito.Mockito.when;
 
 /**
  * Created with IntelliJ IDEA.
- * User: ThoughtWorks
+ * biblioteca.libFunctions.User: ThoughtWorks
  * Date: 7/30/12
  * Time: 9:47 AM
  * To change this template use File | Settings | File Templates.

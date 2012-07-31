@@ -1,3 +1,5 @@
+import biblioteca.backend.UserList;
+import biblioteca.libFunctions.User;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,7 +15,7 @@ import static org.mockito.Mockito.when;
 
 /**
  * Created with IntelliJ IDEA.
- * User: nquah
+ * biblioteca.libFunctions.User: nquah
  * Date: 7/18/12
  * Time: 11:47 AM
  * To change this template use File | Settings | File Templates.

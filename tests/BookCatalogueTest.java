@@ -1,3 +1,5 @@
+import biblioteca.backend.BookCatalogue;
+import biblioteca.libFunctions.Book;
 import org.junit.Test;
 
 import java.io.BufferedReader;
@@ -12,7 +14,7 @@ import static org.mockito.Mockito.when;
 
 /**
  * Created with IntelliJ IDEA.
- * User: nquah
+ * biblioteca.libFunctions.User: nquah
  * Date: 7/16/12
  * Time: 12:27 AM
  * To change this template use File | Settings | File Templates.

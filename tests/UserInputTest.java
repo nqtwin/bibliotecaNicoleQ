@@ -1,3 +1,5 @@
+import biblioteca.frontend.UserInput;
+import biblioteca.menu.MenuTreeNode;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -8,7 +10,7 @@ import static org.mockito.Mockito.*;
 
 /**
  * Created with IntelliJ IDEA.
- * User: nquah
+ * biblioteca.libFunctions.User: nquah
  * Date: 7/18/12
  * Time: 4:49 PM
  * To change this template use File | Settings | File Templates.
