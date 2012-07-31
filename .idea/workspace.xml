@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4402304-90eb-4c0f-8cd9-e2380b326623" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CatalogueRenderer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CheckIfBookIsReservableMenuTreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CheckLibNumMenuTreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ConductReservationMenuTreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ExitProgramMenuTreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FinishReservationMenuTreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Media.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Movie.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MovieCatalogue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ReserveBookMenuTreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ReserveByIdNumMenuTreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RootMenuTreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SearchAuthorByLetterMenuTreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SearchAuthorMenuTreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SearchCatalogueMenuTreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SearchTitleByLetterMenuTreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SearchTitleMenuTreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SearchXMenuTreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserOutput.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ViewBookCatalogueByAuthorMenuTreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ViewBookCatalogueByTitleMenuTreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ViewBookCatalogueMenuTreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ViewMovieCatalogueByDirectorMenuTreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ViewMovieCatalogueByTitleMenuTreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ViewMovieCatalogueMenuTreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/moviesInCatalogue.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/BookCatalogueTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/CatalogueRendererTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/MovieCatalogueTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/MovieTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ViewMovieCatalogueByRatingMenuTreeNode.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Biblioteca$CheckIfBookIsReservableMenuTreeNode.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Biblioteca$CheckLibNumTreeNode.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Biblioteca$ConductReservationMenuTreeNode.class" afterPath="" />
@@ -53,23 +24,16 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Catalogue$InsufficientBooksException.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/Catalogue$TitleCompare.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore/out/test/moduleOne/CatalogueTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/CatalogueTest.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Catalogue.java" afterPath="$PROJECT_DIR$/src/BookCatalogue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/SequenceGenerator.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/MovieCatalogue$DirectorCompare.class" afterPath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/MovieCatalogue$DirectorCompare.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/MovieCatalogue$RatingCompare.class" afterPath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/MovieCatalogue$RatingCompare.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/MovieCatalogue$TitleCompare.class" afterPath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/MovieCatalogue$TitleCompare.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/MovieCatalogue.class" afterPath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/MovieCatalogue.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/ViewMovieCatalogueMenuTreeNode.class" afterPath="$PROJECT_DIR$/.gitignore/out/production/moduleOne/ViewMovieCatalogueMenuTreeNode.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataFiles/reservations.txt" afterPath="$PROJECT_DIR$/dataFiles/reservations.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moduleOne.iml" afterPath="$PROJECT_DIR$/moduleOne.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Biblioteca.java" afterPath="$PROJECT_DIR$/src/Biblioteca.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Book.java" afterPath="$PROJECT_DIR$/src/Book.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Catalogue.java" afterPath="$PROJECT_DIR$/src/Catalogue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MenuTreeNode.java" afterPath="$PROJECT_DIR$/src/MenuTreeNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/User.java" afterPath="$PROJECT_DIR$/src/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UserList.java" afterPath="$PROJECT_DIR$/src/UserList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/BookTest.java" afterPath="$PROJECT_DIR$/tests/BookTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/MenuTreeNodeTest.java" afterPath="$PROJECT_DIR$/tests/MenuTreeNodeTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/UserInputTest.java" afterPath="$PROJECT_DIR$/tests/UserInputTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/UserListTest.java" afterPath="$PROJECT_DIR$/tests/UserListTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/UserTest.java" afterPath="$PROJECT_DIR$/tests/UserTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MovieCatalogue.java" afterPath="$PROJECT_DIR$/src/MovieCatalogue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ViewMovieCatalogueMenuTreeNode.java" afterPath="$PROJECT_DIR$/src/ViewMovieCatalogueMenuTreeNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/moviesInCatalogue.txt" afterPath="$PROJECT_DIR$/src/moviesInCatalogue.txt" />
     </list>
     <ignored path="test1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -144,10 +108,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BookCatalogue.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BookCatalogue.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BookCatalogue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="33" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
+            <state line="4" column="33" selection-start="102" selection-end="102" vertical-scroll-proportion="0.09724473">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2213#2220#0" expanded="true" />
@@ -159,53 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CatalogueRenderer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CatalogueRenderer.java">
+      <file leaf-file-name="ViewMovieCatalogueByRatingMenuTreeNode.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ViewMovieCatalogueByRatingMenuTreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="28" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1105#1113#0" expanded="true" />
-                <element signature="e#1456#1464#0" expanded="true" />
-                <element signature="e#1893#1901#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MovieCatalogue.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MovieCatalogue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="177" column="71" selection-start="6225" selection-end="6225" vertical-scroll-proportion="0.5816327">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="e#2332#2339#0" expanded="true" />
-                <element signature="e#2898#2905#0" expanded="true" />
-                <element signature="e#3554#3561#0" expanded="true" />
-                <element signature="e#4428#4435#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookCatalogueTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/BookCatalogueTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="30" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1311#1317#0" expanded="true" />
-                <element signature="e#1843#1849#0" expanded="true" />
-                <element signature="e#2340#2346#0" expanded="true" />
-                <element signature="e#2840#2846#0" expanded="true" />
-                <element signature="e#3725#3731#0" expanded="true" />
-                <element signature="e#4227#4233#0" expanded="true" />
-                <element signature="e#4694#4700#0" expanded="true" />
-                <element signature="e#5208#5214#0" expanded="true" />
-                <element signature="e#5681#5687#0" expanded="true" />
-                <element signature="e#6193#6199#0" expanded="true" />
-                <element signature="e#6669#6675#0" expanded="true" />
-                <element signature="e#7189#7195#0" expanded="true" />
-              </folding>
+            <state line="18" column="71" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -258,7 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/BookCatalogue.java" />
         <option value="$PROJECT_DIR$/src/SearchTitleMenuTreeNode.java" />
         <option value="$PROJECT_DIR$/src/SearchAuthorMenuTreeNode.java" />
         <option value="$PROJECT_DIR$/src/SearchAuthorByLetterMenuTreeNode.java" />
@@ -268,12 +189,13 @@
         <option value="$PROJECT_DIR$/src/RootMenuTreeNode.java" />
         <option value="$PROJECT_DIR$/src/ViewMovieCatalogueByTitleMenuTreeNode.java" />
         <option value="$PROJECT_DIR$/src/Biblioteca.java" />
-        <option value="$PROJECT_DIR$/src/moviesInCatalogue.txt" />
         <option value="$PROJECT_DIR$/src/ViewMovieCatalogueByDirectorMenuTreeNode.java" />
-        <option value="$PROJECT_DIR$/src/ViewMovieCatalogueMenuTreeNode.java" />
         <option value="$PROJECT_DIR$/tests/MovieTest.java" />
-        <option value="$PROJECT_DIR$/src/MovieCatalogue.java" />
         <option value="$PROJECT_DIR$/tests/MovieCatalogueTest.java" />
+        <option value="$PROJECT_DIR$/src/moviesInCatalogue.txt" />
+        <option value="$PROJECT_DIR$/src/ViewMovieCatalogueMenuTreeNode.java" />
+        <option value="$PROJECT_DIR$/src/ViewMovieCatalogueByRatingMenuTreeNode.java" />
+        <option value="$PROJECT_DIR$/src/MovieCatalogue.java" />
       </list>
     </option>
   </component>
@@ -453,6 +375,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -462,7 +387,7 @@
       <recent name="$PROJECT_DIR$/tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MovieCatalogueTest.sortCatalogueByRatingGivesCorrectOrder">
+  <component name="RunManager" selected="Application.Biblioteca">
     <configuration default="false" name="BookCatalogueTest.searchAuthorByLetterReturnsNullIfUnsuccessful" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="moduleOne" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -977,7 +902,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1440" height="787" extended-state="1" />
+    <frame x="0" y="27" width="1440" height="787" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -994,8 +919,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2025862" sideWeight="0.8093093" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1906907" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2025862" sideWeight="0.5345345" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46546546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1061,51 +986,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/testAddBooks.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/moviesInCatalogue.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="56" selection-start="158" selection-end="158" vertical-scroll-proportion="0.055555556">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ViewMovieCatalogueByTitleMenuTreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="52" selection-start="449" selection-end="449" vertical-scroll-proportion="0.3764479">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ViewBookCatalogueByAuthorMenuTreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="161" selection-end="814" vertical-scroll-proportion="0.23166023">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Biblioteca.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="0" selection-start="2101" selection-end="2101" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ViewMovieCatalogueByDirectorMenuTreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="34" selection-start="641" selection-end="641" vertical-scroll-proportion="0.5576208">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ViewMovieCatalogueMenuTreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="83" selection-start="667" selection-end="667" vertical-scroll-proportion="0.46391752">
           <folding />
         </state>
       </provider>
@@ -1147,20 +1030,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CatalogueRenderer.java">
+    <entry file="file://$PROJECT_DIR$/tests/MovieCatalogueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="28" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.0">
+        <state line="52" column="86" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.5714286">
           <folding>
-            <element signature="e#1105#1113#0" expanded="true" />
-            <element signature="e#1456#1464#0" expanded="true" />
-            <element signature="e#1893#1901#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1241#1248#0" expanded="true" />
+            <element signature="e#1812#1819#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/moviesInCatalogue.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="51" selection-start="754" selection-end="754" vertical-scroll-proportion="0.4312115">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ViewMovieCatalogueByTitleMenuTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="234" selection-end="815" vertical-scroll-proportion="0.22900763">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MovieCatalogue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="160" column="40" selection-start="5562" selection-end="5562" vertical-scroll-proportion="0.3815126">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2332#2339#0" expanded="true" />
+            <element signature="e#2898#2905#0" expanded="true" />
+            <element signature="e#3554#3561#0" expanded="true" />
+            <element signature="e#4428#4435#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/BookCatalogueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="30" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.0">
+        <state line="37" column="30" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.534846">
           <folding>
             <element signature="e#1311#1317#0" expanded="true" />
             <element signature="e#1843#1849#0" expanded="true" />
@@ -1178,27 +1089,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/MovieCatalogueTest.java">
+    <entry file="file://$PROJECT_DIR$/src/ViewMovieCatalogueByRatingMenuTreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="86" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.5714286">
+        <state line="18" column="71" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CatalogueRendererTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="291" selection-end="291" vertical-scroll-proportion="0.051863857">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1241#1248#0" expanded="true" />
-            <element signature="e#1812#1819#0" expanded="true" />
+            <element signature="e#594#601#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MovieCatalogue.java">
+    <entry file="file://$PROJECT_DIR$/src/CatalogueRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="71" selection-start="6225" selection-end="6225" vertical-scroll-proportion="0.5816327">
+        <state line="52" column="28" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.56239873">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#1105#1113#0" expanded="true" />
+            <element signature="e#1456#1464#0" expanded="true" />
+            <element signature="e#1893#1901#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ViewMovieCatalogueMenuTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="38" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.63209075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BookCatalogue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="33" selection-start="102" selection-end="102" vertical-scroll-proportion="0.09724473">
+          <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2332#2339#0" expanded="true" />
-            <element signature="e#2898#2905#0" expanded="true" />
-            <element signature="e#3554#3561#0" expanded="true" />
-            <element signature="e#4428#4435#0" expanded="true" />
+            <element signature="e#2213#2220#0" expanded="true" />
+            <element signature="e#2763#2770#0" expanded="true" />
+            <element signature="e#3401#3408#0" expanded="true" />
+            <element signature="e#4263#4270#0" expanded="true" />
           </folding>
         </state>
       </provider>

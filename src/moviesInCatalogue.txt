@@ -1,3 +1,15 @@
 Batman Begins / Christopher Nolan / abc12 / *****
 The Dark Knight / Christopher Nolan / abc13 / *****
-The Dark Knight Rises / Christopher Nolan / abc14 / ****
+The Dark Knight Rises / Christopher Nolan / abc14 / *****
+The Fellowship of the Ring / Peter Jackson / gjf12 / *****
+The Two Towers / Peter Jackson / ris92 / *****
+The Return of the King / Peter Jackson / fkg902 / *****
+Mission Impossible: 4 / Brad Bird / skg34 / *****
+Really bad movie / really bad director / skf39 / *
+Avatar / James Cameron / tie29 / ****
+Troy / Wolfgang Peterson / skf92 / ***
+Midnight In Paris / Woody Allen / wic82 / ****
+House of Flying Daggers / Zhang Yimou / pxo 91 / ***
+Finding Nemo / Andrew Stanton, Lee Unkrich / ice01 / *****
+3:10 to Yuma / James Mangold / cke38 / ****
+Pretty bad movie / pretty bad director / fie38 / **

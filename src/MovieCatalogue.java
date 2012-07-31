@@ -153,6 +153,7 @@ public class MovieCatalogue implements Catalogue {
     }
 
     public void sortCatalogueByRating() {
+        sortCatalogueByDirector();
         RatingCompare ratingComparator = new RatingCompare();
         Collections.sort(movieSet,ratingComparator);
     }

@@ -22,6 +22,10 @@ public class ViewMovieCatalogueMenuTreeNode extends MenuTreeNode {
         viewMovieByDirectorNode.setMenuOption("View catalogue in alphabetical order by director");
         addChildNode(viewMovieByDirectorNode);
 
+        ViewMovieCatalogueByRatingMenuTreeNode viewMovieByRatingNode = new ViewMovieCatalogueByRatingMenuTreeNode(library);
+        viewMovieByRatingNode.setMenuOption("View catalogue in order by rating (best to worst)");
+        addChildNode(viewMovieByRatingNode);
+
         addChildNode(library.getReturnToRootNode());
     }
 }
